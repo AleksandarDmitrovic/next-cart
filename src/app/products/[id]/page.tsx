@@ -1,5 +1,6 @@
 import PriceTag from "@/components/PriceTag";
 import prisma from "@/lib/db/prisma";
+import { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { cache } from "react";
@@ -15,6 +16,20 @@ const getProduct = cache(async (id: string) => {
   if (!product) notFound();
   return product;
 });
+
+export async function generateMetadata({
+  params: { id },
+}: ProductPageProps): Promise<Metadata> {
+  const product = await getProduct(id);
+
+  return {
+    title: product.name + " - NextCart",
+    description: product.description,
+    openGraph: {
+      images: [{ url: product.imageUrl }],
+    },
+  };
+}
 
 export default async function ProductPage({
   params: { id },
