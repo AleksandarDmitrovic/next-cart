@@ -36,7 +36,7 @@ export default function PaginationBar({
           </Link>
         )}
       </div>
-      <button className="join-item btn pointer-events-none">
+      <button className="join-item btn pointer-events-none block sm:hidden">
         Page {currentPage}
       </button>
       <div className="join block sm:hidden">
