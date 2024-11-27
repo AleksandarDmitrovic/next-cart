@@ -10,6 +10,7 @@ interface HomeProps {
 
 export default async function Home({
   searchParams: { page = "1" },
+  // makes page dynamically rendered
 }: HomeProps) {
   const currentPage = parseInt(page);
 
