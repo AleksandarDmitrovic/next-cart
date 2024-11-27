@@ -57,8 +57,9 @@ export default async function Home({
           <ProductCard product={product} key={product.id} />
         ))}
       </div>
-
-      <PaginationBar currentPage={3} totalPages={99} />
+      {totalPages > 1 && (
+        <PaginationBar currentPage={currentPage} totalPages={totalPages} />
+      )}
     </div>
   );
 }
