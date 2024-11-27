@@ -11,6 +11,15 @@ interface HomeProps {
 export default async function Home({
   searchParams: { page = "1" },
 }: HomeProps) {
+  const currentPage = parseInt(page);
+
+  const pageSize = 6;
+  const heroItemCount = 1;
+
+  const totalItemCount = await prisma.product.count();
+
+  const totalPages = Math.ceil((totalItemCount - heroItemCount) / pageSize);
+
   const products = await prisma.product.findMany({
     orderBy: { id: "desc" },
   });
