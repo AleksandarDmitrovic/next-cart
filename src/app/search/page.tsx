@@ -1,3 +1,4 @@
+import ProductCard from "@/components/ProductCard";
 import prisma from "@/lib/db/prisma";
 
 interface SearchPageProps {
@@ -16,4 +17,16 @@ export default async function SearchPage({
     },
     orderBy: { id: "desc" },
   });
+
+  if (products.length === 0) {
+    return <div className="text-center">No products found</div>;
+  }
+
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+      {products.map((product) => (
+        <ProductCard product={product} key={product.id} />
+      ))}
+    </div>
+  );
 }
