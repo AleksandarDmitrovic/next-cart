@@ -13,9 +13,6 @@ Features implemented for Next Cart:
 - Product Detail: Created product detail page. 
 - Add product: Server action in server component to add products.
 
-- Confirmation Email: A receipt email is sent to the user to confirm a purchase with the order number and details.
-- Product Ratings: A logged in user can leave reviews on a product's detail page and delete their own reviews.
-
 ## Final Product
 Product Page (Home Page)
 <img width="1726" alt="Screenshot 2024-11-29 at 10 04 44 PM" src="https://github.com/user-attachments/assets/63de8d89-a1f0-4b7b-bc63-6481a5cf3b75">
