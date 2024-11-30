@@ -17,9 +17,9 @@ Features implemented for Next Cart:
 Product Page (Home Page)
 <img width="1726" alt="Screenshot 2024-11-29 at 10 04 44 PM" src="https://github.com/user-attachments/assets/63de8d89-a1f0-4b7b-bc63-6481a5cf3b75">
 Product Detail Page
-<img width="865" alt="Screenshot 2024-11-29 at 10 05 13 PM" src="https://github.com/user-attachments/assets/a6587711-e2b4-4d96-ae36-09595e45f99e">
+<img width="1726" alt="Screenshot 2024-11-29 at 10 05 13 PM" src="https://github.com/user-attachments/assets/a6587711-e2b4-4d96-ae36-09595e45f99e">
 Checkout Cart Page
-<img width="865" alt="Screenshot 2024-11-29 at 10 10 39 PM" src="https://github.com/user-attachments/assets/068539fb-2985-495b-9747-d1ba04d74012">
+<img width="1726" alt="Screenshot 2024-11-29 at 10 10 39 PM" src="https://github.com/user-attachments/assets/068539fb-2985-495b-9747-d1ba04d74012">
 Search Page
 <img width="1727" alt="Screenshot 2024-11-29 at 3 27 45 PM" src="https://github.com/user-attachments/assets/e02b5054-3c22-49d3-b392-98a9eae123b1">
 Add Product Page
