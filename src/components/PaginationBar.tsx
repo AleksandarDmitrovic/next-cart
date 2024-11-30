@@ -14,7 +14,7 @@ export default function PaginationBar({
 
   const numberedPageItems: JSX.Element[] = [];
 
-  for (let page = minPage; page < maxPage; page++) {
+  for (let page = minPage; page <= maxPage; page++) {
     numberedPageItems.push(
       <Link
         href={"?page=" + page}
