@@ -1,4 +1,5 @@
 # Next Cart
+Check it out live here: https://next-cart-ruddy.vercel.app/
 
 A mini e-commerce application that was built with Next.JS.
 A project to practice implementing new features with a new js framework.
@@ -19,11 +20,16 @@ Features implemented for Next Cart:
 Product Page (Home Page)
 <img width="1726" alt="Screenshot 2024-11-29 at 10 04 44 PM" src="https://github.com/user-attachments/assets/63de8d89-a1f0-4b7b-bc63-6481a5cf3b75">
 Product Detail Page
-!["Screenshot of the Product Page"](https://github.com/AleksandarDmitrovic/jungle-rails/blob/master/docs/products.png?raw=true)
+<img width="865" alt="Screenshot 2024-11-29 at 10 05 13 PM" src="https://github.com/user-attachments/assets/a6587711-e2b4-4d96-ae36-09595e45f99e">
 Checkout Cart Page
-!["Screenshot of Product details Page"](https://github.com/AleksandarDmitrovic/jungle-rails/blob/master/docs/product_details.png?raw=true)
+<img width="865" alt="Screenshot 2024-11-29 at 10 10 39 PM" src="https://github.com/user-attachments/assets/068539fb-2985-495b-9747-d1ba04d74012">
 Search Page
-!["Screenshot of Order Confirmation Page"](https://github.com/AleksandarDmitrovic/jungle-rails/blob/master/docs/order_confirmation.png?raw=true)
+<img width="1727" alt="Screenshot 2024-11-29 at 3 27 45 PM" src="https://github.com/user-attachments/assets/e02b5054-3c22-49d3-b392-98a9eae123b1">
+Add Product Page
+<img width="1728" alt="Screenshot 2024-11-29 at 3 27 17 PM" src="https://github.com/user-attachments/assets/a56c41ee-e6a5-4a5f-95d5-c00d855fbcb8">
+
+
+
 
 
 
