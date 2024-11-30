@@ -6,8 +6,8 @@ A project to practice implementing new features with a new js framework.
 Features implemented for Jungle:
 
 - Add product: Server action in server component to add products.
-- Product List: Create products list page
-- User Authentication: User authentication using google o
+- Product List: Create products list page.
+- User Authentication: User authentication using Google OAuth.
 - Enhanced Order Page: The order page contains items, their image, name, description, quantities and line item totals
 - Confirmation Email: A receipt email is sent to the user to confirm a purchase with the order number and details.
 - Product Ratings: A logged in user can leave reviews on a product's detail page and delete their own reviews.
